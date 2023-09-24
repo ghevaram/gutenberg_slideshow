@@ -6,5 +6,24 @@
 /* post heading */
 .post h2{
     font-size: 20px;
+    text-align: center;
 }
 
+/* day and date */
+.post p{
+    text-align: center;
+}
+
+/* arranging them properly */
+.parent-container{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    justify-content: center;
+}
+
+/* adjusting the slider size */
+.slider{
+    width: 80%;
+    padding: 2%;
+}
