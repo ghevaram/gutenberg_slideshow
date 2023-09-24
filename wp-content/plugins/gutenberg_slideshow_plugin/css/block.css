@@ -1,3 +1,10 @@
+/* for adjusting the size of the images */
 .post img{
     width: 100%;
 }
+
+/* post heading */
+.post h2{
+    font-size: 20px;
+}
+
