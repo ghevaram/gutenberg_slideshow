@@ -47,3 +47,21 @@ button{
 button:hover{
     background: linear-gradient(#e66465, #9198e5);
 }
+
+/* media queries */
+@media (max-width: 750px) {
+    button{
+        padding: 10px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 520px) {
+    button{
+        padding: 5px;
+        font-size: 25px;
+    }
+    .post h2{
+        font-size: 14px;
+    }
+}
